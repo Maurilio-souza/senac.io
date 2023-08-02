@@ -1,0 +1,45 @@
+main{
+flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+.dados-contato{
+    background-color: #202020;
+    border-radius: 5;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.dados-lista{
+    flex-direction: column;
+    gap: 10px;
+
+}
+figure{
+    border-radius: 48px;
+}
+.dados-lista ul{
+    margin: 0;
+    padding: 0;
+}
+iframe{
+    max-width: 100%;
+    transition: 1s ease;
+
+}
+@media screen and (max-width: 700px) {
+    .dados-contato{
+        grid-template-columns: 1fr;
+    }
+    .dados-lista{
+        flex-direction: row;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+iframe:hover{
+    scale: 102%;
+}
