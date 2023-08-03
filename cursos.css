@@ -44,6 +44,9 @@ h1{
 
 
 }
+body{
+    background-color: #161616;
+}
 .curso-item span{
     height: 5px;
     width: 32px;
