@@ -84,6 +84,9 @@ a:hover{
     .main-inicio{
         flex-direction: column;
     }
+    h1{
+    font-size: 46px
+    }
     
 }
 button:hover{
