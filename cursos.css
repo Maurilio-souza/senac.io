@@ -13,9 +13,7 @@ img{
     position: relative;
     overflow: hidden;
     border-radius: 32px;
-    border: 3px dashed #f5a000;
-    width:100% ;
-
+    border: 3px dashed #f5a000
 
 }
 
@@ -24,8 +22,7 @@ div{
 }
 
 .cursos{
-    width: 3000px;
-    flex-direction: row;
+    flex-direction: column;
     padding-left: 0px;
 }
 
